@@ -11,3 +11,17 @@
 -
 
 <h4>Project Commands</h4>
+> choco install nvm.install -A
+> nvm install current
+> nvm use lts
+> node -v
+> npm create vite -y
+    # npm gets installed with node
+    - app-1
+    # with vite create, can use any type of JS project, react, vue, Svelte, etc
+    - React
+    - Typescript
+> cd app-1
+> npm install | npm i
+    # install dependencies
+> npm run dev
