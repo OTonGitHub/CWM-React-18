@@ -55,3 +55,13 @@
     - some projects like H? can't recall, look into it.
 - functions use Pascal Casing:
     - because when used as react elements, they use pascal, unlike html elements, to diffrentiate
+- Previously, before react 18, classes used for react components:
+    - more info in first Mosh course.
+    - now functions are used, like in this project
+- Vite runs HMR (hot module replacement): file change monitor and update
+- when importing, using .tsx append to file name, no real issue noticed yet, but strange first behaviour
+
+- to my understanding, it seems, app is the entry point, main app,
+- and main.tsx is what is called by index, which is an association between app and index,
+- main .tsx binds to the root element of DOM and renders app in there.
+- perhaps can render multiple apps in one DOM.
