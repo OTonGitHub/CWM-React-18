@@ -65,3 +65,20 @@
 - and main.tsx is what is called by index, which is an association between app and index,
 - main .tsx binds to the root element of DOM and renders app in there.
 - perhaps can render multiple apps in one DOM.
+- virtual dom is in memory, when changes happen, compared with actual DOM and changes applies
+
+  - these changes added by reactDOM,
+  - react it self platform agnostic, if using react components on mobile, translation done by reactNative, etc
+
+- inside {} in tags, anything that returns a value can be placed
+- react builds User interfaces, unlike Angular or Vue, react is a library, not a framework (tool to toolset)
+- react: dynamic & interactive user interfaces
+- for actual apps, need other components besides UI (React), such as
+  - routing: mapping,
+  - HTTP calls,
+  - state management,
+  - internalization,
+  - form validation,
+  - animations
+- React good, because not set, which library to use for the other parts, depends on project
+- this project focus on just react, other tools for later
