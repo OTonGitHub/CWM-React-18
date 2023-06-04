@@ -25,3 +25,23 @@
 > npm install | npm i
     # install dependencies
 > npm run dev
+
+<h4>Project Struct Explanation</h4>
+- ./node_modules:
+    - never touched, third party libraries and tools installed
+- ./public:
+    - videos, pictures, svg, etc
+- tsconfig.json:
+    - set typescript compiler parameters, how to compile to JS
+- package.json:
+    - project dependencies
+    - dev dependencies is only in development
+- index.html
+    - entry point
+    - has root app node
+    - and `script` module link to main.tsx
+- src/app.tsx
+    - main app
+    - different from main.tsx
+- vite.config.ts
+    - mostly untouched, just vite config
