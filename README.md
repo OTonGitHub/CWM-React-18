@@ -45,6 +45,8 @@
     # install dependencies
 > npm run dev
 
+> npm i bootstrap
+
 <h4>Notes:</h4>
 - creating components in src
 - *.ts for plaing ts, and *.tsx for react components
@@ -82,3 +84,4 @@
   - animations
 - React good, because not set, which library to use for the other parts, depends on project
 - this project focus on just react, other tools for later
+- class is reserved keyword in js and ts, hence className used in tsx components
